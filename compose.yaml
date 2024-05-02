@@ -11,8 +11,6 @@ services:
   frontend:
     build:
       context: .
-    env_file:
-      - .env
     ports:
       - 3004:3004
   nginx:
