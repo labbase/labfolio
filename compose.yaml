@@ -20,6 +20,8 @@ services:
       - ./crt:/etc/nginx/certs
     ports:
       - 7443:7443
+    env_file:
+      - .env
 
 # The commented out section below is an example of how to define a PostgreSQL
 # database that your application can use. `depends_on` tells Docker Compose to
