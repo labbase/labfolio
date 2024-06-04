@@ -43,9 +43,12 @@ const AboutPage = () => {
             {/* BIOGRAPHY DESC */}
             <p className="text-lg">
             I am a system administrator and a web developer.
-            I have been working and learning on IT systems and web development for 3 years.
-            I'm currently working in the Aviation industry as an IT role, and been working on my side projects as an web developer.
-            I have some web development projects going on to make something usfull for individuals,
+            I have been working and self-learning on IT systems and web development for 3 years after I graduated with an ICS diploma.
+            I'm currently working in the Aviation industry in an IT role since I graduated,
+            the main tasks are usually focused on system and network administration and supporting users.
+            By working in the IT industry, I also have gaining system and network engineering skills.
+            I also have been working on my side web app projects as a web developer.
+            There are some web development projects going on at my table to make something useful for individuals,
             and can provide a perfect IT environment for anyone and any organizations.
             </p>
             {/* BIOGRAPHY QUOTE */}
