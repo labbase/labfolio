@@ -3,6 +3,7 @@ import Brain from "@/components/brain";
 import { motion, useInView, useScroll } from "framer-motion";
 import Image from "next/image";
 import { useRef } from "react";
+import pic from '../../../public/2016Spring.jpg'
 
 const AboutPage = () => {
   const containerRef = useRef();
@@ -31,7 +32,7 @@ const AboutPage = () => {
           <div className="flex flex-col gap-12 justify-center">
             {/* BIOGRAPHY IMAGE */}
             <Image
-              src="../../../public/2016Spring.jpg"
+              src={pic}
               alt=""
               width={112}
               height={112}
