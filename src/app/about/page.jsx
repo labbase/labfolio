@@ -42,10 +42,11 @@ const AboutPage = () => {
             <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
             {/* BIOGRAPHY DESC */}
             <p className="text-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-              harum quibusdam cupiditate nobis accusamus sed aut aperiam,
-              reiciendis numquam! Voluptas voluptatibus obcaecati dolore itaque
-              suscipit! Vel doloremque numquam quam nihil.
+            I am a system administrator and a web developer.
+            I have been working and learning on IT systems and web development for 3 yewars.
+            Working in the Aviation industry as an IT role, and been working on my side work as an web developer.
+            I have some web development projects going on to make something usfull for individuals,
+            and can provide a perfect IT environment for anyone and any organizations.
             </p>
             {/* BIOGRAPHY QUOTE */}
             <span className="italic">
