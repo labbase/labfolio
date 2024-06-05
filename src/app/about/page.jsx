@@ -4,6 +4,7 @@ import { motion, useInView, useScroll } from "framer-motion";
 import Image from "next/image";
 import { useRef } from "react";
 import pic from '../../../public/2016Spring.jpg'
+import sig from '../../../public/signature.png'
 
 const AboutPage = () => {
   const containerRef = useRef();
@@ -53,11 +54,12 @@ const AboutPage = () => {
             </p>
             {/* BIOGRAPHY QUOTE */}
             <span className="italic">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Empowering every keystroke to innovate, my role in IT is to turn complexity into simplicity, possibility into reality.
             </span>
             {/* BIOGRAPHY SIGN SVG*/}
             <div className="self-end">
-              <svg
+              <Image src={sig} alt="signature" className="w-28 h-14" />
+              {/* <svg
                 width="185"
                 height="77"
                 viewBox="0 0 370 114"
@@ -69,7 +71,7 @@ const AboutPage = () => {
                   stroke="black"
                   strokeWidth="2"
                 />
-              </svg>
+              </svg> */}
             </div>
             {/* BIOGRAPHY SCROLL SVG */}
             <motion.svg
@@ -262,20 +264,19 @@ const AboutPage = () => {
                 <div className="w-1/3 ">
                   {/* JOB TITLE */}
                   <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                    Senior JavaScript Engineer
+                    Fullstack Web Developer{" "}
                   </div>
                   {/* JOB DESC */}
                   <div className="p-3 text-sm italic">
-                    I led web development, offering expertise in JavaScript
-                    frameworks.{" "}
+                    I created multi-websites for labbase.org to acheive Labbase's service purposes.{" "}
                   </div>
                   {/* JOB DATE */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
-                    2024 - Present
+                    2022 - Present{" "}
                   </div>
                   {/* JOB COMPANY */}
                   <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-                    Apple
+                    Labbase Org.
                   </div>
                 </div>
                 {/* CENTER */}
@@ -305,20 +306,19 @@ const AboutPage = () => {
                 <div className="w-1/3 ">
                   {/* JOB TITLE */}
                   <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                    Senior React Developer
+                    IT Support Specialist{" "}
                   </div>
                   {/* JOB DESC */}
                   <div className="p-3 text-sm italic">
-                    I spearheaded React-based application development,
-                    leveraging advanced skills.{" "}
+                    Working as an IT user support and junior system administrator in the aviation industry.{" "}
                   </div>
                   {/* JOB DATE */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
-                    2019 - 2024{" "}
+                    2021 - Present{" "}
                   </div>
                   {/* JOB COMPANY */}
                   <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-                    Microsoft
+                    VIH Helicopters Ltd.
                   </div>
                 </div>
               </div>
@@ -328,16 +328,19 @@ const AboutPage = () => {
                 <div className="w-1/3 ">
                   {/* JOB TITLE */}
                   <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                    Freelancer{" "}
+                    Student{" "}
                   </div>
                   {/* JOB DESC */}
                   <div className="p-3 text-sm italic">
-                    I provided web solutions, applying a range of technologies
-                    to address client requirements.{" "}
+                    I studied Information and Computer Systems, covered the most range of modern IT knowledge.{" "}
                   </div>
                   {/* JOB DATE */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
-                    2010 - 2019{" "}
+                    2019 - 2020
+                  </div>
+                  {/* JOB COMPANY */}
+                  <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
+                    Camosun College
                   </div>
                 </div>
                 {/* CENTER */}

@@ -24,10 +24,10 @@ const Homepage = () => {
           </h1>
           {/* DESC */}
           <p className="md:text-xl">
-            Welcome to my digital canvas, where innovation and creativity
-            converge. With a keen eye for aesthetics and a mastery of code, my
-            portfolio showcases a diverse collection of projects that reflect my
-            commitment to excellence.
+          In a world of algorithms, hashtags, and followers,
+          I find true connection in the lines of code that bring ideas to life.
+          As a web developer, I don’t just build websites;
+          I craft digital experiences that resonate with the heartbeat of technology and human ingenuity.
           </p>
           {/* BUTTONS */}
           <div className="w-full flex gap-4">
